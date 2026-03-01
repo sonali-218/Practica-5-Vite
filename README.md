@@ -1,16 +1,44 @@
-# React + Vite
+# 🚀 Task Manager Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7.3.1-brightgreen?logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-blue?logo=tailwind-css)
+![Firebase](https://img.shields.io/badge/Firebase-9-yellow?logo=firebase)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+Task Manager Pro es una aplicación web para gestionar tus tareas de manera sencilla y eficiente. Permite crear, editar, eliminar, filtrar y buscar tareas, además de visualizar estadísticas y recibir notificaciones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Crear, editar y eliminar tareas.
+- ✔️ Marcar tareas como completadas o pendientes.
+- 🔎 Filtrar tareas por estado, categoría o búsqueda por título/descripción.
+- 📊 Visualizar estadísticas: total de tareas, completadas, pendientes y vencidas.
+- 🛎️ Notificaciones tipo toast al crear, actualizar o eliminar tareas.
+- 🌗 Soporte de tema claro/oscuro.
+- 📱 Diseño responsivo para móviles y desktop.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Tecnologías
+
+- **React 18** con Hooks
+- **Vite** como bundler
+- **TailwindCSS** para estilos
+- **Firebase** (Auth + Firestore)
+- **Zustand** para manejo de estado global
+- **react-hot-toast** para notificaciones
+- **date-fns** para manejo de fechas
+- **react-router-dom** para rutas
+
+---
+
+## 🚀 Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/task-manager-pro.git
+cd task-manager-pro
